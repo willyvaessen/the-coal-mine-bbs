@@ -1,0 +1,93 @@
+/* This stylesheet for my website was 7 August 2023 */
+/* General Styles */
+* {
+    box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(315deg, #caceb1, #bec2b4, #b1b8b3, #9fa49e, #98968b) fixed;
+    font-family: monospace, sans-serif;
+    color: #011078;
+}
+
+h1 {
+    font-size: 2.1rem;
+}
+
+.widget {
+    align-items: center;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #F2F3EB;
+    width: 744px;
+    min-height: 500px;
+    height: fit-content;
+    margin: 10px auto;
+}
+
+.terminalContainer {
+    width: 640px;
+    padding: 5px 10px 5px 10px;
+    height: 530px;
+    background-color: black;
+    margin: 10px auto 0;
+    color: #6AAA64;
+    line-height: 0;
+}
+
+.terminalContainer p {
+    font-size: 0.8rem;
+    line-height: 0;
+
+}
+#inputField {
+    width: 340px;
+    height: 20px;
+    margin: 0 auto;
+    background-color: black;
+    color: #6AAA64;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#inputField p {
+    margin-top: 0;
+}
+
+/*  Keyboard Area*/
+
+#keyboardArea {
+    /*font-size: 0;*/
+    margin: 10px auto;
+    align-content: center;
+}
+
+button {
+    background-color: #011078;
+    color: #F2F3EB;
+    margin: 3px;
+    font-size: 1.8rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+.start {
+    font-size: 0.9rem;
+}
+
+.hidden {
+    background-color: transparent;
+    color: transparent;
+    border: none;
+}
