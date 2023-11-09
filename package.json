@@ -1,12 +1,25 @@
 {
   "name": "thecoalminebbs",
   "version": "1.0.0",
-  "description": "",
+  "description": "With this project I want to try and build a system that looks and feels like  the old-school BBS many people are used to,  on a website.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.5",
+    "bunyan": "^1.8.15",
+    "deepdash": "^5.3.9",
+    "fs-extra": "^11.1.1",
+    "graceful-fs": "^4.2.11",
+    "hjson": "^3.2.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "sane": "^5.0.1",
+    "sqlite3": "^5.1.6",
+    "sqlite3-trans": "^1.3.0"
+  }
 }

@@ -1,4 +1,4 @@
-const rows = 40;
+const rows = 24;
 const cols = 80;
 const terminal = document.getElementById("terminalArea");
 //  Let's start by trying to fill one line of the terminal.
@@ -8,6 +8,9 @@ const currentChar = document.getElementById('activePositionContainer');
 
 const startBtn = document.getElementById('start_btn');
 
+document.addEventListener('dblclick', function(event) {
+event.preventDefault();
+}, { passive: false });
 
 //  Start of populateGrid function
 function populateGrid(rows, cols) {

@@ -1,8 +1,10 @@
 /* This stylesheet for my website was 7 August 2023 */
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 /* General Styles */
 * {
     box-sizing: border-box;
-
+    /*font-size: 10px;*/
 }
 
 html, body {
@@ -36,18 +38,19 @@ h1 {
 .terminalContainer {
     width: 640px;
     padding: 5px 10px 5px 10px;
-    height: 530px;
+    height: 480px;
     background-color: black;
-    margin: 10px auto 0;
+    margin: 10px auto 10px;
     color: #6AAA64;
     line-height: 0;
 }
 
 .terminalContainer p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     line-height: 0;
-
+    font-family: 'VT323', monospace;
 }
+
 #inputField {
     width: 340px;
     height: 20px;
